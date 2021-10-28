@@ -29,7 +29,6 @@ Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'xiyaowong/nvim-transparent'
 
-
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
@@ -58,6 +57,9 @@ set background=dark    " Setting dark mode
 
 
 colorscheme gruvbox
+
+autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
 
 
