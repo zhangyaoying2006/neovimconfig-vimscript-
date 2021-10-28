@@ -10,7 +10,8 @@
                                                                   
                                                                   
 call plug#begin('~/AppData/Local/nvim/plugged')
-Plug 'arcticicestudio/nord-vim'
+"Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -56,7 +57,7 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set background=dark    " Setting dark mode
 
 
-colorscheme nord
+colorscheme gruvbox
 
 
 
