@@ -19,8 +19,10 @@ I/ Requirments:
 	Link: https://www.nerdfonts.com/font-downloads
 5. (Optional) Window Terminal
 	Link: https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
+
+	
 II/ Credits
-Configure by Zhang Yao Ying
+Configure by Zhang Yao Ying.
 Also thank you VuNguyenCoder allows me to use some of his code. I'm appreciate that !
 
 
